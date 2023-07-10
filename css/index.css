@@ -1,0 +1,141 @@
+main{
+    margin-top: 150px;
+}
+
+.s1 {
+    background-image: url("../img/CascadeKingdom.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 30px 0px black;
+}
+
+.s1 h1 {
+    font-size: 64px;
+    text-align: center;
+    font-family: MoonGet;
+    line-height: 120%;
+}
+
+.s1 img{
+    display: block;
+    margin: auto;
+    filter: drop-shadow(0 0 30px black);
+}
+
+.s1 .infotext {
+    margin-bottom:5%;
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.s1 .infotext p{
+    margin:auto;
+    width: 25%;
+}
+
+.s1 .infotext a{
+    line-height: 200%;
+    margin:2% auto;
+    display: block;
+    text-align: center;
+    width: 50%;
+    color: #3D3D3DFF;
+    transform: rotate(-3deg);
+}
+
+.s1 .infotext a:hover{
+    width: 20%;
+    color: white;
+    background-color: #3D3D3DFF;
+}
+
+.s2 {
+    margin: 300px 0 300px -50px;
+    border-radius: 10px;
+}
+
+.s2 img{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.s2 .oe {
+    box-shadow: 0px 0px 20px 0px black;
+    padding-left: 150px;
+    background-color: rgb(231, 25, 25);
+    border-radius: 10px;
+    width: 50%;
+    max-width: 800px;
+    display: flex;
+}
+
+.s2 .oe > div {
+    width: 50%;
+    border-radius: 20% 20% 0 0;
+    padding-top: 3%;
+    position: relative;
+}
+
+.more {
+    z-index: -2;
+    opacity: 0;
+    position: absolute;
+    margin: 0;
+    top:80%;
+    left:0;
+    right:0;
+    color: white;
+    background-color: #ab9b00;
+    padding: 5px 5px 5px 30px;
+}
+
+.s2 .oe > div:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.s2 .oe > div:hover .more{
+    opacity: 1;
+    padding:15px 5px 15px 30px;
+    border-radius: 0 0 20px 20px;
+    top:100%;
+}
+
+hr {
+    width: 40%;
+    border: 1px solid darkgray;
+    margin:  30px auto;
+}
+
+.s2 .oe a{
+    line-height: 200%;
+    margin:2% auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: white;
+    transform: rotate(-3deg);
+}
+
+.s2 div a:hover{
+    width: 70%;
+    color: #3d3d3d;
+    background-color: white;
+}
+
+.s2 .moai {
+    position: relative;
+    float: left;
+    height: 400px;
+    width: auto;
+    left: 125px;
+    transform: scaleX(-1);
+    filter: drop-shadow(15px 5px 20px black);
+}
+
+.s2 .title {
+    margin-left: 350px;
+}

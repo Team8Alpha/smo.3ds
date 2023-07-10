@@ -1,0 +1,88 @@
+/* FONTS */
+@font-face
+{
+    font-family: "Rodin";
+    src: url("../fonts/FOT-RodinNTLG Pro DB.otf") format("truetype");
+}
+
+@font-face
+{
+    font-family: "MoonGet";
+    src: url("../fonts/moon_get-Heavy.ttf") format("truetype");
+}
+
+* {
+    transition: 0.2s;
+}
+
+body {
+    margin: 0;
+    background: fixed url("../img/map.jpg") center;
+    background-size: cover;
+    font-family: Rodin;
+    line-height: 125%;
+}
+
+a {
+    font-family: MoonGet;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+/* HEADER */
+header {
+    z-index: 1;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(231, 25, 25, 0.8);
+    padding: 15px;
+    height: 80px;
+}
+
+header img {
+    height: 200px;
+    width: auto;
+    align-self: start;
+}
+
+header nav {
+     display: flex;
+     align-items: stretch;
+}
+
+header nav a {
+    color: white;
+    padding: 15px 20px;
+    margin: auto;
+}
+
+header nav a:hover {
+    color: #3d3d3d;
+    background-color: white;
+    padding: 5px 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: white;
+    border: solid darkgoldenrod;
+    border-width: 10px 0 0 0;
+    color: darkgoldenrod;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 75px;
+}
+
+footer img:hover{
+    transform: scale(1.25);
+}
